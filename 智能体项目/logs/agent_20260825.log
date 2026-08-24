@@ -1,0 +1,198 @@
+2026-08-25 02:09:47,843 - agent - ERROR - vector_store.py:88 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界世界观.txt加载失败，原因：Error loading C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界世界观.txt
+Traceback (most recent call last):
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0x82 in position 9: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\rag\vector_store.py", line 72, in load_document
+    documents:list[Document] = get_file_documents(file_path)
+                               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\rag\vector_store.py", line 55, in get_file_documents
+    return txt_loader(read_path)
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\utils\file_handler.py", line 54, in txt_loader
+    return TextLoader(file_path).load()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界世界观.txt
+2026-08-25 02:09:47,845 - agent - ERROR - vector_store.py:88 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界地图.txt加载失败，原因：Error loading C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界地图.txt
+Traceback (most recent call last):
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xbe in position 15: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\rag\vector_store.py", line 72, in load_document
+    documents:list[Document] = get_file_documents(file_path)
+                               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\rag\vector_store.py", line 55, in get_file_documents
+    return txt_loader(read_path)
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\utils\file_handler.py", line 54, in txt_loader
+    return TextLoader(file_path).load()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界地图.txt
+2026-08-25 02:09:47,847 - agent - WARNING - vector_store.py:80 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界日期和节日.txt文件内没有有效内容
+2026-08-25 02:09:47,848 - agent - WARNING - vector_store.py:80 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界的行业知识.txt文件内没有有效内容
+2026-08-25 02:09:47,849 - agent - ERROR - vector_store.py:88 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界魔法设定.txt加载失败，原因：Error loading C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界魔法设定.txt
+Traceback (most recent call last):
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\document_loaders\text.py", line 43, in lazy_load
+    text = f.read()
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xb6 in position 33: illegal multibyte sequence
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\rag\vector_store.py", line 72, in load_document
+    documents:list[Document] = get_file_documents(file_path)
+                               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\rag\vector_store.py", line 55, in get_file_documents
+    return txt_loader(read_path)
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\utils\file_handler.py", line 54, in txt_loader
+    return TextLoader(file_path).load()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_core\document_loaders\base.py", line 43, in load
+    return list(self.lazy_load())
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\document_loaders\text.py", line 56, in lazy_load
+    raise RuntimeError(f"Error loading {self.file_path}") from e
+RuntimeError: Error loading C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界魔法设定.txt
+2026-08-25 02:11:21,067 - agent - ERROR - vector_store.py:88 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界世界观.txt加载失败，原因：status_code: 400 
+ code: InvalidParameter 
+ message: Model not exist.
+Traceback (most recent call last):
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\rag\vector_store.py", line 83, in load_document
+    self.vector_store.add_documents(split_documents)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_core\vectorstores\base.py", line 258, in add_documents
+    return self.add_texts(texts, metadatas, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_chroma\vectorstores.py", line 627, in add_texts
+    embeddings = self._embedding_function.embed_documents(texts)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 155, in embed_documents
+    embeddings = embed_with_retry(
+        self, input=texts, text_type="document", model=self.model
+    )
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 83, in embed_with_retry
+    return _embed_with_retry(**kwargs)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 331, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 453, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 402, in __get_result
+    raise self._exception
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 70, in _embed_with_retry
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: status_code: 400 
+ code: InvalidParameter 
+ message: Model not exist.
+2026-08-25 02:11:21,475 - agent - ERROR - vector_store.py:88 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界地图.txt加载失败，原因：status_code: 400 
+ code: InvalidParameter 
+ message: Model not exist.
+Traceback (most recent call last):
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\rag\vector_store.py", line 83, in load_document
+    self.vector_store.add_documents(split_documents)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_core\vectorstores\base.py", line 258, in add_documents
+    return self.add_texts(texts, metadatas, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_chroma\vectorstores.py", line 627, in add_texts
+    embeddings = self._embedding_function.embed_documents(texts)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 155, in embed_documents
+    embeddings = embed_with_retry(
+        self, input=texts, text_type="document", model=self.model
+    )
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 83, in embed_with_retry
+    return _embed_with_retry(**kwargs)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 331, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 453, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 402, in __get_result
+    raise self._exception
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 70, in _embed_with_retry
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: status_code: 400 
+ code: InvalidParameter 
+ message: Model not exist.
+2026-08-25 02:11:21,479 - agent - WARNING - vector_store.py:80 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界日期和节日.txt文件内没有有效内容
+2026-08-25 02:11:21,480 - agent - WARNING - vector_store.py:80 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界的行业知识.txt文件内没有有效内容
+2026-08-25 02:11:21,885 - agent - ERROR - vector_store.py:88 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界魔法设定.txt加载失败，原因：status_code: 400 
+ code: InvalidParameter 
+ message: Model not exist.
+Traceback (most recent call last):
+  File "C:\Users\17585\Desktop\agent_create_world\src\智能体项目\rag\vector_store.py", line 83, in load_document
+    self.vector_store.add_documents(split_documents)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_core\vectorstores\base.py", line 258, in add_documents
+    return self.add_texts(texts, metadatas, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_chroma\vectorstores.py", line 627, in add_texts
+    embeddings = self._embedding_function.embed_documents(texts)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 155, in embed_documents
+    embeddings = embed_with_retry(
+        self, input=texts, text_type="document", model=self.model
+    )
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 83, in embed_with_retry
+    return _embed_with_retry(**kwargs)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 331, in wrapped_f
+    return copy(f, *args, **kw)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 371, in iter
+    result = action(retry_state)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 393, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 453, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\_base.py", line 402, in __get_result
+    raise self._exception
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\tenacity\__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+  File "C:\Users\17585\Desktop\agent_create_world\.venv\Lib\site-packages\langchain_community\embeddings\dashscope.py", line 70, in _embed_with_retry
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: status_code: 400 
+ code: InvalidParameter 
+ message: Model not exist.
+2026-08-25 02:14:00,534 - agent - INFO - vector_store.py:85 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界世界观.txt文件内容已上传
+2026-08-25 02:14:01,036 - agent - INFO - vector_store.py:85 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界地图.txt文件内容已上传
+2026-08-25 02:14:01,037 - agent - WARNING - vector_store.py:80 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界日期和节日.txt文件内没有有效内容
+2026-08-25 02:14:01,038 - agent - WARNING - vector_store.py:80 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界的行业知识.txt文件内没有有效内容
+2026-08-25 02:14:01,482 - agent - INFO - vector_store.py:85 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界魔法设定.txt文件内容已上传
