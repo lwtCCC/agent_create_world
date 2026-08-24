@@ -196,3 +196,40 @@ ValueError: status_code: 400
 2026-08-25 02:14:01,037 - agent - WARNING - vector_store.py:80 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界日期和节日.txt文件内没有有效内容
 2026-08-25 02:14:01,038 - agent - WARNING - vector_store.py:80 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界的行业知识.txt文件内没有有效内容
 2026-08-25 02:14:01,482 - agent - INFO - vector_store.py:85 - [加载知识库]C:\Users\17585\Desktop\agent_create_world\src\智能体项目\data\异世界魔法设定.txt文件内容已上传
+2026-08-25 21:03:53,708 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有1条消息。
+2026-08-25 21:03:53,709 - agent - DEBUG - middleware.py:44 - [log_before_model]HumanMessage | 生成报告
+2026-08-25 21:03:58,312 - agent - INFO - middleware.py:23 - [tool monitor]执行工具: get_user_id]
+2026-08-25 21:03:58,312 - agent - INFO - middleware.py:24 - [[tool monitor]执行参数: {}]
+2026-08-25 21:03:58,313 - agent - INFO - middleware.py:28 - [tool monitor]执行工具: get_user_id],调用成功
+2026-08-25 21:03:58,315 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有3条消息。
+2026-08-25 21:03:58,316 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | 1001
+2026-08-25 21:04:00,047 - agent - INFO - middleware.py:23 - [tool monitor]执行工具: get_current_month]
+2026-08-25 21:04:00,048 - agent - INFO - middleware.py:24 - [[tool monitor]执行参数: {}]
+2026-08-25 21:04:00,049 - agent - INFO - middleware.py:28 - [tool monitor]执行工具: get_current_month],调用成功
+2026-08-25 21:04:00,050 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有5条消息。
+2026-08-25 21:04:00,050 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | 8月
+2026-08-25 21:04:02,405 - agent - INFO - middleware.py:23 - [tool monitor]执行工具: get_current_month]
+2026-08-25 21:04:02,406 - agent - INFO - middleware.py:24 - [[tool monitor]执行参数: {}]
+2026-08-25 21:04:02,407 - agent - INFO - middleware.py:28 - [tool monitor]执行工具: get_current_month],调用成功
+2026-08-25 21:04:02,408 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有7条消息。
+2026-08-25 21:04:02,409 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | 4月
+2026-08-25 21:04:04,870 - agent - INFO - middleware.py:23 - [tool monitor]执行工具: get_current_month]
+2026-08-25 21:04:04,871 - agent - INFO - middleware.py:24 - [[tool monitor]执行参数: {}]
+2026-08-25 21:04:04,872 - agent - INFO - middleware.py:28 - [tool monitor]执行工具: get_current_month],调用成功
+2026-08-25 21:04:04,874 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有9条消息。
+2026-08-25 21:04:04,874 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | 4月
+2026-08-25 21:04:06,875 - agent - INFO - middleware.py:23 - [tool monitor]执行工具: fill_context_for_report]
+2026-08-25 21:04:06,876 - agent - INFO - middleware.py:24 - [[tool monitor]执行参数: {}]
+2026-08-25 21:04:06,876 - agent - INFO - middleware.py:28 - [tool monitor]执行工具: fill_context_for_report],调用成功
+2026-08-25 21:04:06,877 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有11条消息。
+2026-08-25 21:04:06,877 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | fill_context_for_report已调用
+2026-08-25 21:04:09,982 - agent - INFO - middleware.py:23 - [tool monitor]执行工具: fetch_external_data]
+2026-08-25 21:04:09,982 - agent - INFO - middleware.py:24 - [[tool monitor]执行参数: {'user_id': '1001', 'month': '2025-04'}]
+2026-08-25 21:04:10,006 - agent - INFO - middleware.py:28 - [tool monitor]执行工具: fetch_external_data],调用成功
+2026-08-25 21:04:10,007 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有13条消息。
+2026-08-25 21:04:10,007 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | {"特征": "65㎡公寓 | 单身 | 木地板", "效率": "覆盖率:88%\\n日均清扫:48㎡\\n漏扫区域:无（沙发底部垫高）", "耗材": "主刷寿命:剩余45天\\nHEPA滤网:剩余25%", "对比": "优于75%同面积用户（清洁无死角）"}
+2026-08-25 21:04:11,929 - agent - INFO - middleware.py:23 - [tool monitor]执行工具: rag_summarize]
+2026-08-25 21:04:11,929 - agent - INFO - middleware.py:24 - [[tool monitor]执行参数: {'query': '异世界旅游建议'}]
+2026-08-25 21:04:16,250 - agent - INFO - middleware.py:28 - [tool monitor]执行工具: rag_summarize],调用成功
+2026-08-25 21:04:16,254 - agent - INFO - middleware.py:43 - [log_before_model]即将调用模型，带有15条消息。
+2026-08-25 21:04:16,255 - agent - DEBUG - middleware.py:44 - [log_before_model]ToolMessage | 异世界分为四大地域：北部风雪之地，首都为新月古都；东部仙人之地，首都为京，重视血缘与内在力量；南部富饶之地，首都为大森林，多精灵类亚人；西部混乱之地，势力混杂，曾有中央城镇新圣域。旅行时需注意人物属性（生命值、魔力值、精神值、体力值），并警惕天使（直视会降低精神值）、恶魔（实现愿望但条件苛刻）及堕天使等存在。魔法使具备认证，冒险者则以金钱为首要动机。
